@@ -5,7 +5,7 @@
 const io = require('socket.io')(3000,{
     // as cors is making connection error
     cors:{
-        origin : "http://127.0.0.1:5500",
+        origin : "https://reerajput930.github.io/Real-Time-Chat-Application/",
    },
 })
 
