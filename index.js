@@ -1,3 +1,5 @@
+//for github
+<script src="/socket.io/socket.io.js"></script>
 //nodeserver and clienrserver both are different website
 const socket = io('http://localhost:3000');
 
