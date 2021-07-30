@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- By default, the Socket.IO server exposes a client bundle at /socket.io/socket.io.js. -->
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="index.js"></script>
+     <!-- server and client is attach now -->
+    <title>Hangout</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="head">
+            <h1>Hangout</h1>
+            <img src="images/chat icon.png" alt="">
+        </div>
+
+        <div class="chat-section">
+           <!-- <div class="message-right"></div>
+           <div class="message-left"></div> -->
+
+        </div>
+        <div class="send-section">
+           <form action="#" id="send_input">
+               <input type="text" placeholder="write something" id="input-message">
+               <button type="submit"><img id="send-icon" src="images/send icon.png" alt="Submit"></button>
+           </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
